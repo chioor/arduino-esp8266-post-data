@@ -84,9 +84,9 @@ void echo(){
 
 
 void post(){
-   mySerial.println("POST /devices/520493292/datapoints   HTTP/1.1");
+   mySerial.println("POST /devices/523122392/datapoints   HTTP/1.1");
    mySerial.println("Host: api.heclouds.com");
-   mySerial.println("api-key: PZN7Bc9pviqfOfHDtOnh2hH=nR4=");
+   mySerial.println("api-key: PZN7Bc9pviqfH=nR4=");
    mySerial.println("Content-Length: 166");
    mySerial.println("");
    mySerial.println("{\"datastreams\":[{\"id\":\"tmp\",\"datapoints\":[{\"value\": \"66\"}]}]}");
